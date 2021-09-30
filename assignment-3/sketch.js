@@ -2,15 +2,12 @@ var mySound;
 var playing = false;
 var kiwi;
 
-function preload() {
-  soundFormats('mp3', 'ogg');
-  mySound = loadSound('CAT-KITTY-CAT-CAT');
-  kiwi = loadImage('kiwi.png')
-}
-
 function setup(){
   frameRate(30);
   createCanvas(500, 500);
+  soundFormats('mp3', 'ogg');
+  mySound = loadSound('CAT-KITTY-CAT-CAT');
+  kiwi = loadImage('kiwi.png')
   imageMode(CENTER);
   textAlign(CENTER);
 }
