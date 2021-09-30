@@ -7,7 +7,7 @@ function setup(){
   createCanvas(500, 500);
   soundFormats('mp3', 'ogg');
   mySound = loadSound('CAT-KITTY-CAT-CAT');
-  kiwi = loadImage('kiwi.png')
+  kiwi = loadImage('Kiwi.png')
   imageMode(CENTER);
   textAlign(CENTER);
 }
